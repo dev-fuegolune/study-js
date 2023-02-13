@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Noto Sans-L';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://res.kurly.com/fonts/NotoSansKR-Light.woff2') format('woff2'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Light.woff') format('woff'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans-R';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://res.kurly.com/fonts/NotoSansKR-Regular.woff2') format('woff2'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Regular.woff') format('woff'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans-M';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('https://res.kurly.com/fonts/NotoSansKR-Medium.woff2') format('woff2'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Medium.woff') format('woff'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans-B';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://res.kurly.com/fonts/NotoSansKR-Bold.woff2') format('woff2'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Bold.woff') format('woff'),
+        url('https://res.kurly.com/fonts/NotoSansKR-Bold.otf') format('truetype');
+}
+
+a {
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+}
+
+b {
+    font-weight: 700;
+    font-family: 'Noto Sans-B';
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img,
+legend {
+    border: 0;
+    vertical-align: top;
+}
+
+canvas,
+image,
+video {
+    max-width: 100%;
+}
+
+button {
+    overflow: visible;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+html {
+    touch-action: manipulation;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+    -webkit-tap-highlight-color: transparent;
+}
+
+b,
+optgroup,
+strong {
+    font-weight: 700;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 14px;
+    color: #333;
+    font-family: 'Noto Sans-R';
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+    overflow-clip-margin: content-box;
+}
+
+body {
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*,
+:after,
+:before,
+legend,
+td,
+th {
+    padding: 0;
+}
+.bottom-container {
+    padding-top: 30px;
+    border-top: 1px solid rgb(247, 247, 247);
+}
+
+.bottom-footer {
+    width: 1050px;
+    margin: 0px auto;
+}
+
+.footer-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.footer-four {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 26px 0px 33px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+.footer-bottom-button {
+    display: flex;
+    text-align: left;
+}
+
+.bottom-but-logo {
+    font-size: 10px;
+    line-height: 14.5px;
+    color: rgb(153, 153, 153);
+    word-break: break-word;
+}
+
+.bot-but-logo {
+    width: 34px;
+    margin-right: 10px;
+}
+
+.bot-toss-logo {
+    width: 102px;
+    margin-right: 10px;
+}
+
+.bot-woori-logo {
+    width: 34px;
+    margin-right: 10px;
+}
+
+.footer-title {
+    padding-bottom: 17px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    font-family: 'Noto Sans-M';
+}
+
+.button-moongtan-e {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.footer-scg-css {
+    margin: 0 4px;
+}
+
+.footer-button-moong {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.footer-strong-text {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans-M';
+}
+
+.footer-class-text {
+    margin-left: 2px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Noto Sans-R';
+}
+
+.corporation-moong {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 40px;
+}
+
+.footer-corporation {
+    padding-left: 4px;
+}
+
+.footer-corporation:after {
+    content: '|';
+    padding-right: 4px;
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.footer-section-moong {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.line-section-wrapper {
+    display: flex;
+    width: 100%;
+    padding-bottom: 29px;
+}
+
+.a-of-line-section {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer-line-section:first-of-type {
+    margin-left: 0px;
+}
+
+.footer-line-section {
+    margin-left: 14px;
+}
+
+.footer-line-section:nth-of-type(5) {
+    font-weight: 500;
+    font-family: 'Noto Sans-M';
+}
+
+.footer-corporation-text {
+    color: #5f0080;
+}
+
+.footer-icon-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-list-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.ask-kakao {
+    display: block;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    line-height: 39px;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-class-button {
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.footer-button-side-text {
+    margin-top: 2px;
+    color: #999;
+    letter-spacing: -0.5px;
+    line-height: 16.8px;
+}
+
+.notuser-order {
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+}
+
+.footer-bottom-text {
+    padding: 20px 0px 30px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    color: rgb(153, 153, 153);
+}
+
+.footer-bottom-logo {
+    display: block;
+    padding-top: 7px;
+    font-style: normal;
+}
